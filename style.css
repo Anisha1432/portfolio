@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar{
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* width: 15vw; */
+    font: 20px;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+
+}
+
+.sidebar nav{
+    padding: 65px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    height: 100vh;
+}
+.sidebar nav li a{
+    text-decoration: none;
+}
+.main{
+    /*background-color: aqua;*/
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+   
+    
+}
+.infocontainer{
+    /* background-color: yellowgreen; */
+    height: 30vh;
+    width: 60vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    width: 381px;
+    height: 325px;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.hello{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+
+}
+.about{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+.moreabout{
+    margin-top: 23px;
+}
+.buttons button{
+    padding: 3px 10px;
+    border-radius: 20px;
+    color: aliceblue;
+    background-color: #18187f;
+    box-shadow: 0px 5px 20px #fff;
+    border-color: #18187f;
+    font-weight: bold;
+    font-size: 14px;
+    margin: o 2px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: aliceblue;
+    color: #18187f;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.infoform{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+    padding: 0 100px;
+    margin: 0 200px;
+    /* align-content: center; */
+}
+.infoform h1{
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    margin-left: 200px;
+}
+
+.infoform form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.infoform form div input{
+    padding: 3px;
+    width: 13vw;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+#emailHelp{
+    padding: 5px;
+    color: midnightblue;
+    margin: 0 3px;
+    font-size: 12px;
+}
+.infoform button{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #18187f;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.infoform button:hover{
+    color: #18187f;
+    background-color: aliceblue;
+}
+
+.introcontainer{
+    margin: 0 350px;
+}
+.main p1{
+
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.main p2{
+
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main p3{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main p4{
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main p5{
+    
+    font-size: 17px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.main p6{
+
+    font-weight: bold;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.main h1{
+    font-size: 50px;
+    margin-left: 30%;
+    font-weight: bolder;
+}
+.main h2{
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight:bold;
+}
+.main h3{
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight:bold;
+}
+.main h4{
+    font-size: 30px;
+    margin-left: 30%;
+    font-weight:bold;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: #ededf3;
+    margin: 10px;
+    
+}
+.ninty{
+    width: 265px;
+}
+.eighty{
+    width: 265px;
+}
+.seventy{
+    width: 120px;
+}
+.sixty{
+    width: 230px;
+}
+.fifty{
+    width: 265px;
+}
+.fourty{
+    width: 250px;
+}
+.thirty{
+    width: 200px;
+}
+.twenty{
+    width: 200px;
+}
+
+
+@media (max-width: 12450px) {   
+    *{
+        
+          /* background: linear-gradient(rgba(0, 0, 0, 0.863),rgba(0,0,0,0.5)), url('img.jpg');
+    background-size: cover;
+    position: relative; */
+    background-color: black;
+    color: #fff;
+        }
+    .sidebar{
+        transform: matrix(-200px, 0px);
+        position: absolute;
+    }
+    .devpic{
+        display: none;
+    }
+    
+ }
+ .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+ }
+
+ .sidebarGo{ 
+    transform: translate(-200px, 0px);
+    position: absolute;
+ } 
+ .cross{
+    margin-left: 160px;
+ }
+
+
+
+
